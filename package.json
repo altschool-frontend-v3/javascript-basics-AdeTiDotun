@@ -6,9 +6,14 @@
   "author": "Charles Opute Odili <chaluwa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --colors"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
   },
   "dependencies": {
-    "jest": "^28.1.2"
+    "save-dev": "^0.0.1-security"
   }
 }
